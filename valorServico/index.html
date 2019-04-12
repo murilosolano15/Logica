@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Valor do Serviço</title>
+</head>
+<body>
+    <h1>Valor do Serviço</h1>
+    <form name="frmValorServico">
+        <p>Digite seu salário: R$ <input type="text" placeholder="Salario Liquido" name="txtSalario" size="12"></p>
+        <p>Custo operacional: R$ <input type="text" placeholder="Despesas Fixas" name="txtDespesas" size="12"></p>
+        <p>Impostos 30% salário: R$ <input type="text" placeholder="Impostos 30%" name="txtImpostos" size="12" disabled></p>
+        <p>Investimento 20% salário: R$ <input type="text" placeholder="Investimento 20%" name="txtInvestimento" size="12" disabled></p>
+        <p>Total Salário: R$ <input type="text" placeholder="Total Salário" name="txtTotal" size="12" disabled></p>
+        <hr>
+        <p>Digite a sua carga horária mensal: <input type="text" placeholder="Carga Horária" name="txtCargaHoraria" size="12"></p>
+        <p><input type="button" value="Calcular" size="5" onclick="calcularServico()"></p>
+        <p>Valor da Hora de Serviço: R$ <input type="text" placeholder="Valor da Hora" name="txtValorHora" size="12" disabled></p>
+    </form>
+    <script src="valorServico.js"></script>
+</body>
+</html>

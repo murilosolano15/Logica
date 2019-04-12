@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ChurrasCalculadora</title>
+</head>
+<body>
+    <h1>ChurrasCalculadora, aqui o seu Churrasco sai perfeito!</h1>
+    <form name="frmChurras">
+        <p>Quantidade de Homens: <input type="text" placeholder="Homens" name="txtHomem" size="4"></p>
+        <p>Quantidade de Mulheres: <input type="text" placeholder="Mulheres" name="txtMulher" size="4"></p>
+        <p>Quantidade de Crianças: <input type="text" placeholder="Crianças" name="txtCrianca" size="4"></p>
+        <p>Preço médio do KG de Carne: R$ <input type="text" placeholder="Carne KG" name="txtCarne" size="5"></p>
+        <p>Preço da lata de cerveja: R$ <input type="text" placeholder="Cerveja" name="txtCerveja" size="4"></p>
+        <p>Preço da lata de refrigerante: R$ <input type="text" placeholder="Refri" name="txtRefrigerante" size="4"></p>
+        <p><input type="button" value="Calcular" size="5" onclick="calcularChurras()"></p>
+        <hr>
+        <p>
+            Valor total carne: R$ <input type="text" placeholder="Valor total carne" name="txtTotalCarne" size="12" disabled>
+            Quantidade de Carne: KG <input type="text" placeholder="Quant. carne" name="txtQuantCarne" size="12" disabled>
+        </p>
+        <p>
+            Valor total cerveja: R$ <input type="text" placeholder="Valor total cerveja" name="txtTotalCerveja" size="12" disabled>
+            Quantidade de cerveja: lata <input type="text" placeholder="Quant. cerveja" name="txtQuantCerveja" size="12" disabled>
+        </p>
+        <p>
+            Valor total refri: R$ <input type="text" placeholder="Valor total refri" name="txtTotalRefrigerante" size="12" disabled>
+            Quantidade de refri: lata <input type="text" placeholder="Quant. refri" name="txtQuantRefrigerante" size="12" disabled>
+        </p>
+        <p>Valor total do Churrasco: R$ <input type="text" placeholder="Carne+Refri+Cerveja" name="txtTotal" size ="12" disabled></p>
+        <p>Valor total dividido para cada: <input type="text" placeholder="Divisão p/ cada" name="txtDividir" size ="12" disabled></p>
+        <!-- Falta Dividir -->
+    <form>
+    <script src="churrasCalc.js"></script>
+</body>
+</html>
