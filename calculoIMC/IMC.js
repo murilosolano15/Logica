@@ -35,7 +35,7 @@ function calcularIMC() {
     else if (media > 35 && media < 40){
         frmMedia.txtStatus.value = "Obesidade Severa"
     }
-    else 
-    frmMedia.txtStatus.value = "Obesidade Morbida"
+    else if (media > 40)
+    frmMedia.txtStatus.value = "Obesidade Mórbida"
 
 }
