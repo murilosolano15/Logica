@@ -51,4 +51,9 @@ function abrirSite() {
             window.location = "file:///C:/Users/murilo.soliva/Documents/Logic/calculodaMedia/index.html";
             break
     }
+    switch (Entrada) {
+        case 10:
+            window.location = "file:///C:/Users/murilo.soliva/Documents/Logic/jokenpo/index.html";
+            break
+    }
 }
